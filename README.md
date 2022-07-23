@@ -1,10 +1,9 @@
-- 👋 Hi, I’m @yees7
-- 👀 I’m interested in programming, game development, and gaming.
-- 🌱 I’m currently learning stuff about programming, mostly C++.
-- 💞️ I’m looking to collaborate on a minimalistic toy language called Amber, once the main code is finished.
-- 📫 You can reach me by ... Email: josiahag7@gmail.com
-
-<!---
-yees7/yees7 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+# yees7
+Hello! I'm yees7. I like to program, and am interested in topics such as game development and data science, and making things that people can use. I mainly code in Python, but I am learning C++, and hope one day I will be a master at Rust. I am a major programming fan and a self-teacher.
+### My Learning Progress
+![Progress](https://progress-bar.dev/80/?title=Python)
+![Progress](https://progress-bar.dev/70/?title=HTML)
+![Progress](https://progress-bar.dev/45/?title=CSS)
+![Progress](https://progress-bar.dev/60/?title=Javascript)
+![Progress](https://progress-bar.dev/50/?title=CPP)
+![Progress](https://progress-bar.dev/15/?title=Rust)
