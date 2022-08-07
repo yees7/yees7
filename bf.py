@@ -1,6 +1,16 @@
+from sys import argv
+
+inpfile = argv[1]
+output = None
+if len(argv) == 3:
+    output = argv[2]
+
 def debug(text):
-    with open('output.txt', 'a') as db:
-        db.write(text)
+    if output:
+        with open(output, 'a') as db:
+            db.write(text)
+    else:
+        print(text, end="")
 
 def interpret(code):
     array = [0]
@@ -49,6 +59,7 @@ def interpret(code):
             i -= 1
         i += 1
 
-open('output.txt', 'w').close()
-with open('input.bf') as inp:
+if output:
+    open(output, 'w').close()
+with open(inpfile) as inp:
     interpret(inp.read())
